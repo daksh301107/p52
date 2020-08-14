@@ -1,0 +1,60 @@
+
+
+h1{
+    color:rgb(213, 205, 255);
+    text-decoration: none
+}
+.header *{
+    border:dotted red;
+    margin:40px;
+    text-decoration: none
+}
+.menu{margin-top: 80px;
+padding-right: 90px;
+text-decoration: none}
+.header{
+    background-color:rgb(80, 79, 79);
+display: flex;
+justify-content: space-between;
+text-decoration: none
+}
+.grid{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-decoration: none
+}
+.social{
+    display: flex;
+    justify-content: flex-end;
+    text-decoration: none
+}
+.description{
+    text-align: center;
+    text-decoration: none
+    
+}
+body{
+    background-color: #808080;
+    text-decoration: none
+}
+a:link{
+    color:olivedrab;
+}
+a:visited{
+    color:gainsboro;
+}
+.game{
+    position:relative;
+    text-decoration: none
+}
+.game p{
+  position:absolute;
+  top: 50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  opacity:0;
+  text-decoration: none
+}
+.game:hover {transform:scale(1.2);}
